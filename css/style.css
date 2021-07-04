@@ -1,6 +1,6 @@
 /* 
-    Author: Alexandre TCHAMi;
-    Theme; Restaurant Food Order;
+    Author: Alexandre TCHAMI;
+    Theme: Restaurant Food Order;
     version: 1.0;
 */
 
@@ -16,7 +16,7 @@
 .container {
     width: 80%;
     margin: 0 auto;
-    padding: 1.5%;
+    padding: 1%;
 }
 
 .img-responsive {
@@ -33,6 +33,10 @@
 
 .text-center {
     text-align: center;
+}
+
+.text-left {
+    text-align: left;
 }
 
 .text-white {
@@ -57,7 +61,7 @@ a:hover {
     padding: 1%;
     border: none;
     font-size: 1rem;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .btn-primary {
@@ -91,8 +95,15 @@ h3 {
     left: 40%;
 }
 
+fieldset {
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
 
-/* CSS for navbar section */
+
+/* CSSS for navbar section */
 
 .logo {
     width: 10%;
@@ -114,7 +125,7 @@ h3 {
 }
 
 
-/* CSS for food SEarch Section */
+/* CSS for Food SEarch Section */
 
 .food-search {
     background-image: url(../images/bg.jpg);
@@ -196,6 +207,28 @@ h3 {
 }
 
 
+/* for Order Section */
+
+.order {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input-responsive {
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.order-label {
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+
 /* CSS for Mobile Size or Smaller Screen */
 
 @media only screen and (max-width:768px) {
@@ -210,7 +243,7 @@ h3 {
     .food-search input[type="search"] {
         width: 90%;
         padding: 2%;
-        margin-bottom: 5%;
+        margin-bottom: 3%;
     }
     .btn {
         width: 91%;
@@ -223,10 +256,10 @@ h3 {
         padding: 20% 0;
     }
     h2 {
-        margin-bottom: 10% auto;
+        margin-bottom: 10%;
     }
     .box-3 {
-        width: 95%;
+        width: 100%;
         margin: 4% auto;
     }
     .food-menu {
@@ -239,5 +272,8 @@ h3 {
     }
     .social {
         padding: 5% 0;
+    }
+    .order {
+        width: 100%;
     }
 }
